@@ -22,8 +22,10 @@ public class Area {
     public String getCodigo() {
         return codigo;
     }
-
     public ArrayList<Curso> getCursos() {
         return cursos;
+    }
+    public String getNome() {
+        return nome;
     }
 }

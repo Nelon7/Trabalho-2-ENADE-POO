@@ -75,8 +75,10 @@ public class Curso {
     public void setNome(String n){
         this.nome = n;
     }
-
     public String getCodigo() {
         return codigo;
+    }
+    public ArrayList<Aluno> getAlunos() {
+        return alunos;
     }
 }
